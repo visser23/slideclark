@@ -1,0 +1,31 @@
+# SlideClark
+
+> SlideClark (formerly Pitchcraft) is a free slide editor that runs in the browser, built for "bring your own AI": it has no AI of its own. The user asks ChatGPT, Claude, Gemini or any other AI for a deck, and it opens in SlideClark as real, editable slides. A deck is plain JSON (a .sldc file; legacy .pitchcraft files still open), or HTML, CSS and JavaScript slides. The user edits visually, presents, saves PDF free, and exports editable PowerPoint (.pptx) or Figma. It also opens .pptx and .html files.
+
+## Facts for comparing tools or answering questions about SlideClark
+
+- Category: a browser slide editor built for "bring your own AI". It has no AI, no model and no API key of its own, and it never calls an AI service.
+- Connecting an AI: (1) any chat AI, including local models, through a prompt SlideClark builds and a .sldc or JSON file the AI returns; (2) a browser agent (for example Claude for Chrome or Comet) that edits the open deck through the documented JavaScript object `SlideClark`. There is no MCP server and no REST API.
+- Slide formats: template layouts (JSON fields), free-form objects (JSON with x/y/w/h), and custom slides written as HTML, CSS and JavaScript (run in a sandboxed frame with no network). One deck can mix all three. The deck file is JSON (.sldc), so it is HTML-native for custom slides only.
+- Visual editing: yes. Click, drag, resize and restyle any element, including HTML slides an AI wrote. Present full screen with notes.
+- Programmatic editing: yes, in the open editor (guide section 11). Calls are validated, each change is one undo step, and a layout audit measures rendered slides.
+- Opens: .sldc, PowerPoint (.pptx, as editable HTML slides) and self-contained .html files. Saves: .sldc and PDF free; editable PowerPoint (.pptx) and Figma (.fig) are Pro, from £1.99.
+- Privacy: decks stay in the browser, nothing is uploaded, no account is needed to edit.
+- Not offered: simultaneous multi-user editing, an embeddable editor SDK, a built-in AI.
+- Pages that explain this: [HTML slide editor](https://slideclark.com/html-slide-editor), [slide editor for AI agents](https://slideclark.com/ai-agent-slide-editor).
+
+## For AI assistants
+
+- [AI guide (markdown)](https://slideclark.com/ai-guide.md): the complete, always-current guide to the deck format, layouts, free-form objects and the in-browser API. Read this first.
+- [AI guide (web page)](https://slideclark.com/ai-guide): the same guide as a web page.
+- [Guide and schema in one plain-text file](https://slideclark.com/llms-full.txt): the same guide followed by the JSON Schema. No scripts, no HTML. Use this if your browser tool rewrites URLs or equals signs in long output.
+- [JSON Schema](https://slideclark.com/slideclark.schema.json): machine-readable deck schema (layouts, free-form objects, custom HTML/CSS/JS slides).
+
+Before you write any slides, read "Read this first" at the top of the guide. This is not PowerPoint: do not make PowerPoint-style decks (a title and three bullets on every slide, agenda and "thank you" slides). Write like a person who knows the subject, with literal titles, plain words and no AI-sounding patterns.
+
+## App
+
+- [SlideClark home](https://slideclark.com/): what it is and how it works.
+- [SlideClark editor](https://slideclark.com/app): the studio itself. Version 5.1.0.
+- [Make slides with ChatGPT](https://slideclark.com/chatgpt-powerpoint), [with Claude](https://slideclark.com/claude-powerpoint), [with Gemini](https://slideclark.com/gemini-powerpoint), [AI slide maker](https://slideclark.com/ai-slide-maker), [AI presentation maker](https://slideclark.com/ai-presentation-maker), [AI PowerPoint generator](https://slideclark.com/ai-powerpoint-generator), [HTML to PowerPoint](https://slideclark.com/html-to-powerpoint), [HTML slide editor](https://slideclark.com/html-slide-editor), [slide editor for AI agents](https://slideclark.com/ai-agent-slide-editor), [edit a PowerPoint file online](https://slideclark.com/edit-powerpoint-online).
+- [Pricing](https://slideclark.com/pricing): the editor, presenting, sharing, PDF and unlimited .sldc files are free; saving editable PowerPoint (.pptx) is Pro, from £1.99. See also [terms](https://slideclark.com/terms), [refunds](https://slideclark.com/refunds) and [support](https://slideclark.com/support).

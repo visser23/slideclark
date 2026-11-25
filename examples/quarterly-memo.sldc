@@ -1,0 +1,269 @@
+{
+  "format": "slideclark",
+  "version": 3,
+  "meta": {
+    "name": "Quarterly signal",
+    "theme": "editorial",
+    "numbers": true,
+    "transition": "fade"
+  },
+  "slides": [
+    {
+      "id": "m-title",
+      "layout": "title",
+      "bg": "",
+      "tone": "",
+      "transition": "",
+      "kicker": "Q3 memo · sample content",
+      "headline": "What the *numbers* are trying to tell us",
+      "body": "A short read on growth, retention and where we should spend the next quarter.",
+      "notes": "",
+      "items": [],
+      "columns": [],
+      "chartType": "bar",
+      "chartData": {},
+      "tableData": {},
+      "code": {
+        "language": "json",
+        "filename": "",
+        "source": ""
+      },
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "m-metrics",
+      "layout": "metrics",
+      "bg": "",
+      "tone": "",
+      "transition": "",
+      "kicker": "Sample data",
+      "headline": "Three numbers that ==changed== this quarter",
+      "body": "",
+      "notes": "",
+      "items": [
+        {
+          "value": "38%",
+          "label": "Weekly active",
+          "trend": "up",
+          "note": "+7 points"
+        },
+        {
+          "value": "2.1s",
+          "label": "Median load",
+          "trend": "down",
+          "note": "-0.6s"
+        },
+        {
+          "value": "91",
+          "label": "Net promoter",
+          "trend": "up",
+          "note": "+12"
+        }
+      ],
+      "columns": [],
+      "chartType": "bar",
+      "chartData": {},
+      "tableData": {},
+      "code": {
+        "language": "json",
+        "filename": "",
+        "source": ""
+      },
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "m-line",
+      "layout": "chart",
+      "bg": "",
+      "tone": "",
+      "transition": "",
+      "kicker": "Sample data",
+      "headline": "Retention ==finally== bent upward",
+      "body": "The onboarding rewrite shipped in week 5. Every cohort after it holds more users at day 30.",
+      "notes": "",
+      "items": [
+        {
+          "value": "+19 pts",
+          "label": "Since week 5"
+        }
+      ],
+      "columns": [],
+      "chartType": "area",
+      "chartData": {
+        "labels": [
+          "W1",
+          "W3",
+          "W5",
+          "W7",
+          "W9",
+          "W11"
+        ],
+        "series": [
+          {
+            "name": "Day-30 retention",
+            "values": [
+              22,
+              23,
+              24,
+              31,
+              36,
+              41
+            ]
+          }
+        ]
+      },
+      "tableData": {},
+      "code": {
+        "language": "json",
+        "filename": "",
+        "source": ""
+      },
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "m-quote",
+      "layout": "quote",
+      "bg": "tint",
+      "tone": "",
+      "transition": "",
+      "kicker": "",
+      "headline": "We stopped asking what to *add* and started asking what to ==remove==.",
+      "body": "Product lead, sample quote",
+      "notes": "",
+      "items": [],
+      "columns": [],
+      "chartType": "bar",
+      "chartData": {},
+      "tableData": {},
+      "code": {
+        "language": "json",
+        "filename": "",
+        "source": ""
+      },
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "m-compare",
+      "layout": "comparison",
+      "bg": "",
+      "tone": "",
+      "transition": "",
+      "kicker": "The shift",
+      "headline": "How we ==decide== now",
+      "body": "",
+      "notes": "",
+      "items": [],
+      "columns": [
+        {
+          "headline": "Before",
+          "body": "Opinions and loudest voice.",
+          "items": [
+            "Roadmap by request",
+            "Metrics after launch",
+            "Long release cycles"
+          ]
+        },
+        {
+          "headline": "After",
+          "body": "Evidence first.",
+          "items": [
+            "Roadmap by measured pain",
+            "Metrics before launch",
+            "Weekly releases"
+          ]
+        }
+      ],
+      "chartType": "bar",
+      "chartData": {},
+      "tableData": {},
+      "code": {
+        "language": "json",
+        "filename": "",
+        "source": ""
+      },
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "m-actions",
+      "layout": "bullets",
+      "bg": "",
+      "tone": "",
+      "transition": "",
+      "kicker": "Recommendations",
+      "headline": "Four things to ==do next==",
+      "body": "In order of expected impact.",
+      "notes": "",
+      "items": [
+        {
+          "title": "Double down on onboarding",
+          "body": "It moved retention more than anything else."
+        },
+        {
+          "title": "Cut two dashboards",
+          "body": "Nobody opens them."
+        },
+        {
+          "title": "Hire a data analyst",
+          "body": "We are answering questions by hand."
+        },
+        {
+          "title": "Ship weekly",
+          "body": "Smaller changes, faster learning."
+        }
+      ],
+      "columns": [],
+      "chartType": "bar",
+      "chartData": {},
+      "tableData": {},
+      "code": {
+        "language": "json",
+        "filename": "",
+        "source": ""
+      },
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "m-end",
+      "layout": "closing",
+      "bg": "dark",
+      "tone": "",
+      "transition": "",
+      "kicker": "Discussion",
+      "headline": "What would you ==change==?",
+      "body": "Bring objections. That is what this memo is for.",
+      "notes": "",
+      "items": [],
+      "columns": [],
+      "chartType": "bar",
+      "chartData": {},
+      "tableData": {},
+      "code": {
+        "language": "json",
+        "filename": "",
+        "source": ""
+      },
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ]
+}

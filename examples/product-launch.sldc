@@ -1,0 +1,334 @@
+{
+  "format": "slideclark",
+  "version": 3,
+  "meta": {
+    "name": "Product launch",
+    "theme": "aurora",
+    "numbers": false,
+    "transition": "blur"
+  },
+  "slides": [
+    {
+      "id": "l-title",
+      "layout": "title",
+      "bg": "",
+      "tone": "",
+      "transition": "",
+      "kicker": "Introducing · sample content",
+      "headline": "Meet ==Halo==, the calmest inbox you will ever use",
+      "body": "Everything that matters, in one quiet place.",
+      "notes": "",
+      "items": [],
+      "columns": [],
+      "chartType": "bar",
+      "chartData": {},
+      "tableData": {},
+      "code": {
+        "language": "json",
+        "filename": "",
+        "source": ""
+      },
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "l-problem",
+      "layout": "statement",
+      "bg": "",
+      "tone": "",
+      "transition": "",
+      "kicker": "The problem",
+      "headline": "Email became a place we ==react==, not think.",
+      "body": "Halo turns your inbox back into a place to decide.",
+      "notes": "",
+      "items": [],
+      "columns": [],
+      "chartType": "bar",
+      "chartData": {},
+      "tableData": {},
+      "code": {
+        "language": "json",
+        "filename": "",
+        "source": ""
+      },
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "l-bento",
+      "layout": "bento",
+      "bg": "",
+      "tone": "",
+      "transition": "",
+      "kicker": "What is inside",
+      "headline": "Built around ==focus==",
+      "body": "",
+      "notes": "",
+      "items": [
+        {
+          "size": "l",
+          "tone": "",
+          "icon": "sparkles",
+          "title": "Daily brief",
+          "value": "",
+          "body": "One summary each morning. Only what needs you."
+        },
+        {
+          "size": "s",
+          "tone": "violet",
+          "icon": "clock",
+          "title": "Snooze",
+          "value": "",
+          "body": ""
+        },
+        {
+          "size": "s",
+          "tone": "",
+          "icon": "",
+          "title": "Time saved",
+          "value": "6h",
+          "body": ""
+        },
+        {
+          "size": "s",
+          "tone": "",
+          "icon": "shield",
+          "title": "Private",
+          "value": "",
+          "body": ""
+        },
+        {
+          "size": "s",
+          "tone": "teal",
+          "icon": "bolt",
+          "title": "Instant search",
+          "value": "",
+          "body": ""
+        },
+        {
+          "size": "w",
+          "tone": "",
+          "icon": "users",
+          "title": "Shared inboxes",
+          "value": "",
+          "body": "Assign, comment and close the loop with your team."
+        },
+        {
+          "size": "s",
+          "tone": "",
+          "icon": "",
+          "title": "Rating",
+          "value": "4.9",
+          "body": ""
+        },
+        {
+          "size": "s",
+          "tone": "pink",
+          "icon": "heart",
+          "title": "Loved",
+          "value": "",
+          "body": ""
+        }
+      ],
+      "columns": [],
+      "chartType": "bar",
+      "chartData": {},
+      "tableData": {},
+      "code": {
+        "language": "json",
+        "filename": "",
+        "source": ""
+      },
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "l-area",
+      "layout": "chart",
+      "bg": "tint",
+      "tone": "",
+      "transition": "",
+      "kicker": "Sample data",
+      "headline": "Waitlist ==doubled== every month",
+      "body": "People are asking for it before we have finished building it.",
+      "notes": "",
+      "items": [
+        {
+          "value": "9.6k",
+          "label": "On the waitlist"
+        }
+      ],
+      "columns": [],
+      "chartType": "area",
+      "chartData": {
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun"
+        ],
+        "series": [
+          {
+            "name": "Signups",
+            "values": [
+              400,
+              900,
+              1700,
+              3100,
+              5800,
+              9600
+            ]
+          }
+        ]
+      },
+      "tableData": {},
+      "code": {
+        "language": "json",
+        "filename": "",
+        "source": ""
+      },
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "l-steps",
+      "layout": "process",
+      "bg": "",
+      "tone": "",
+      "transition": "",
+      "kicker": "Getting started",
+      "headline": "Calm in ==three== minutes",
+      "body": "",
+      "notes": "",
+      "items": [
+        {
+          "step": "01",
+          "icon": "link",
+          "title": "Connect",
+          "body": "Sign in with your mail account."
+        },
+        {
+          "step": "02",
+          "icon": "sliders",
+          "title": "Choose",
+          "body": "Pick what should reach you."
+        },
+        {
+          "step": "03",
+          "icon": "check",
+          "title": "Breathe",
+          "body": "Everything else waits for the brief."
+        }
+      ],
+      "columns": [],
+      "chartType": "bar",
+      "chartData": {},
+      "tableData": {},
+      "code": {
+        "language": "json",
+        "filename": "",
+        "source": ""
+      },
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "l-time",
+      "layout": "timeline",
+      "bg": "dark",
+      "tone": "",
+      "transition": "",
+      "kicker": "Launch plan",
+      "headline": "From private beta to ==everyone==",
+      "body": "",
+      "notes": "",
+      "items": [
+        {
+          "date": "May",
+          "title": "Private beta",
+          "body": "500 people, weekly calls.",
+          "status": "done"
+        },
+        {
+          "date": "Jun",
+          "title": "Public beta",
+          "body": "Open the waitlist.",
+          "status": "now"
+        },
+        {
+          "date": "Aug",
+          "title": "Launch",
+          "body": "Web, iOS and Android.",
+          "status": "next"
+        },
+        {
+          "date": "Oct",
+          "title": "Teams",
+          "body": "Shared inboxes for companies.",
+          "status": "next"
+        }
+      ],
+      "columns": [],
+      "chartType": "bar",
+      "chartData": {},
+      "tableData": {},
+      "code": {
+        "language": "json",
+        "filename": "",
+        "source": ""
+      },
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "l-end",
+      "layout": "closing",
+      "bg": "grad",
+      "tone": "",
+      "transition": "",
+      "kicker": "Join us",
+      "headline": "Get on the ==list==.",
+      "body": "Early members get lifetime pricing.",
+      "notes": "",
+      "items": [
+        {
+          "icon": "globe",
+          "label": "Web",
+          "value": "halo.example"
+        },
+        {
+          "icon": "mail",
+          "label": "Say hi",
+          "value": "hello@halo.example"
+        }
+      ],
+      "columns": [],
+      "chartType": "bar",
+      "chartData": {},
+      "tableData": {},
+      "code": {
+        "language": "json",
+        "filename": "",
+        "source": ""
+      },
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ]
+}

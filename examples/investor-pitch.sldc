@@ -1,0 +1,286 @@
+{
+  "format": "slideclark",
+  "version": 3,
+  "meta": {
+    "name": "Investor pitch",
+    "theme": "brutal",
+    "numbers": true,
+    "transition": "rise"
+  },
+  "slides": [
+    {
+      "id": "p-title",
+      "layout": "title",
+      "bg": "accent",
+      "tone": "",
+      "transition": "",
+      "kicker": "Seed round · sample content",
+      "headline": "Groceries, delivered by ==neighbours==",
+      "body": "Fresh food in 20 minutes, without another warehouse.",
+      "notes": "",
+      "items": [],
+      "columns": [],
+      "chartType": "bar",
+      "chartData": {},
+      "tableData": {},
+      "code": {
+        "language": "json",
+        "filename": "",
+        "source": ""
+      },
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "p-problem",
+      "layout": "split",
+      "bg": "",
+      "tone": "",
+      "transition": "",
+      "kicker": "The gap",
+      "headline": "Delivery is ==broken== twice over",
+      "body": "",
+      "notes": "",
+      "items": [],
+      "columns": [
+        {
+          "icon": "clock",
+          "headline": "Too slow",
+          "body": "Same-day delivery still means a two-hour window and a missed doorbell."
+        },
+        {
+          "icon": "tag",
+          "headline": "Too costly",
+          "body": "Warehouses and vans make every basket more expensive than it should be."
+        }
+      ],
+      "chartType": "bar",
+      "chartData": {},
+      "tableData": {},
+      "code": {
+        "language": "json",
+        "filename": "",
+        "source": ""
+      },
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "p-solution",
+      "layout": "cards",
+      "bg": "tint",
+      "tone": "",
+      "transition": "",
+      "kicker": "Our answer",
+      "headline": "Use the ==shops== that already exist",
+      "body": "",
+      "notes": "",
+      "items": [
+        {
+          "icon": "map",
+          "title": "Local first",
+          "body": "Partner with corner shops within 1km."
+        },
+        {
+          "icon": "users",
+          "title": "Neighbour couriers",
+          "body": "People already walking that way earn on the trip."
+        },
+        {
+          "icon": "bolt",
+          "title": "20 minutes",
+          "body": "Nothing travels further than it has to."
+        }
+      ],
+      "columns": [],
+      "chartType": "bar",
+      "chartData": {},
+      "tableData": {},
+      "code": {
+        "language": "json",
+        "filename": "",
+        "source": ""
+      },
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "p-traction",
+      "layout": "metrics",
+      "bg": "",
+      "tone": "",
+      "transition": "",
+      "kicker": "Sample data",
+      "headline": "Traction after ==six months==",
+      "body": "",
+      "notes": "",
+      "items": [
+        {
+          "value": "14k",
+          "label": "Orders",
+          "trend": "up",
+          "note": "+38% month on month"
+        },
+        {
+          "value": "212",
+          "label": "Partner shops",
+          "trend": "up",
+          "note": "+41"
+        },
+        {
+          "value": "18m",
+          "label": "Median delivery",
+          "trend": "down",
+          "note": "-4 min"
+        }
+      ],
+      "columns": [],
+      "chartType": "bar",
+      "chartData": {},
+      "tableData": {},
+      "code": {
+        "language": "json",
+        "filename": "",
+        "source": ""
+      },
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "p-market",
+      "layout": "chart",
+      "bg": "dark",
+      "tone": "",
+      "transition": "",
+      "kicker": "Sample data",
+      "headline": "Where ==orders== come from",
+      "body": "Evenings and weekends carry most of the volume.",
+      "notes": "",
+      "items": [],
+      "columns": [],
+      "chartType": "hbar",
+      "chartData": {
+        "labels": [
+          "Weekday evening",
+          "Weekend",
+          "Lunch",
+          "Late night",
+          "Morning"
+        ],
+        "series": [
+          {
+            "name": "Orders (k)",
+            "values": [
+              5.2,
+              4.1,
+              2.6,
+              1.4,
+              0.9
+            ]
+          }
+        ]
+      },
+      "tableData": {},
+      "code": {
+        "language": "json",
+        "filename": "",
+        "source": ""
+      },
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "p-pricing",
+      "layout": "table",
+      "bg": "",
+      "tone": "",
+      "transition": "",
+      "kicker": "Sample pricing",
+      "headline": "Simple ==pricing==",
+      "body": "",
+      "notes": "",
+      "items": [],
+      "columns": [],
+      "chartType": "bar",
+      "chartData": {},
+      "tableData": {
+        "headers": [
+          "Plan",
+          "Deliveries",
+          "Fee",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "Pay as you go",
+            "Any",
+            "$3.90",
+            "Occasional orders"
+          ],
+          [
+            "Neighbour",
+            "Unlimited",
+            "$9 / month",
+            "Households"
+          ],
+          [
+            "Shop partner",
+            "Unlimited",
+            "4% of basket",
+            "Local stores"
+          ]
+        ]
+      },
+      "code": {
+        "language": "json",
+        "filename": "",
+        "source": ""
+      },
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "p-ask",
+      "layout": "closing",
+      "bg": "accent",
+      "tone": "",
+      "transition": "",
+      "kicker": "The ask",
+      "headline": "We are raising ==$2.5M==.",
+      "body": "To open ten new cities and prove the model at scale.",
+      "notes": "",
+      "items": [
+        {
+          "icon": "mail",
+          "label": "Contact",
+          "value": "founders@example.com"
+        }
+      ],
+      "columns": [],
+      "chartType": "bar",
+      "chartData": {},
+      "tableData": {},
+      "code": {
+        "language": "json",
+        "filename": "",
+        "source": ""
+      },
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ]
+}
